@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="../img/logo.png" type="image/png">
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/shop.css" />
+
+    <title>Farm world</title>
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="grid header__navbar">
+          <ul class="header__navbar-list">
+            <li class="navbar__item">
+              <a href="../../index.html">Trang chủ</a>
+            </li>
+            <li class="navbar__item"><a href="./infos.html">Giới thiệu</a></li>
+            <li class="navbar__item">
+              <a href="./sightseeings.html">Tham quan</a>
+            </li>
+            <li class="navbar__item header__navbar-product">
+              <a href="./products.html"
+                >Sản phẩm <i class="fa fa-caret-down"></i
+              ></a>
+              <ul class="header__navbar-nameproduct header__navbar-before">
+                <li><a href="">Trái cây</a></li>
+                <li><a href="">Rau ăn lá</a></li>
+                <li><a href="">Rau ăn củ</a></li>
+                <li><a href="">Rau ăn quả</a></li>
+                <li><a href="">Rau gia vị</a></li>
+                <li style="border-bottom: none">
+                  <a href="">Thịt tươi sống</a>
+                </li>
+              </ul>
+            </li>
+            <li class="navbar__item"><a href="./shops.html">Cửa hàng</a></li>
+            <li class="navbar__item"><a href="./blogs.html">Tin tức</a></li>
+            <li class="navbar__item"><a href="./contacts.html">Liên hệ</a></li>
+            <div class="bar"></div>
+          </ul>
+          <ul class="header__navbar-list">
+            <li class="header__navbar-item header__navbar-user">
+              <span class="header__navbar-user-icon">
+                <i class="fas fa-user-plus"></i>
+              </span>
+              <ul class="header__navbar-user-menu header__navbar-before">
+                <li class="header__navbar-user-item btn-1">
+                  <button class="">Đăng ký</button>
+                </li>
+                <li class="header__navbar-user-item btn-2">
+                  <button>Đăng nhập</button>
+                </li>
+              </ul>
+            </li>
+            <li class="header__navbar-item header__navbar-cart">
+              <span class="header__navbar-cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+              <div class="navbar__cart-list header__navbar-before">
+                <ul class="navbar__cart-list-item">
+                  <li class="navbar__cart-li">
+                    <a href="" class="navbar__cart-item">
+                      <img class="navbar__cart-img" src="../img/cachuabi.png" />
+                      <div class="navbar__cart-item-info">
+                        <p class="navbar__cart-item-name">Cà chua bi</p>
+                        <div class="navbar__cart-item-price-wrap">
+                          <span class="navbar__cart-item-price">10.000đ</span>
+                          <span class="navbar__cart-item-multiply">x</span>
+                          <span class="navbar__cart-item-quantity">1</span>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="navbar__cart-close">
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </li>
+                  <li class="navbar__cart-li">
+                    <a href="" class="navbar__cart-item">
+                      <img
+                        class="navbar__cart-img"
+                        src="../img/bongthienly.webp"
+                      />
+                      <div class="navbar__cart-item-info">
+                        <p class="navbar__cart-item-name">Bông thiên lý</p>
+                        <div class="navbar__cart-item-price-wrap">
+                          <span class="navbar__cart-item-price">27.000đ</span>
+                          <span class="navbar__cart-item-multiply">x</span>
+                          <span class="navbar__cart-item-quantity">3</span>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="navbar__cart-close">
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </li>
+                  <li class="navbar__cart-li">
+                    <a href="" class="navbar__cart-item">
+                      <img class="navbar__cart-img" src="../img/noibat4.webp" />
+                      <div class="navbar__cart-item-info">
+                        <p class="navbar__cart-item-name">Cà rốt</p>
+                        <div class="navbar__cart-item-price-wrap">
+                          <span class="navbar__cart-item-price">12.000đ</span>
+                          <span class="navbar__cart-item-multiply">x</span>
+                          <span class="navbar__cart-item-quantity">2</span>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="navbar__cart-close">
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </li>
+                </ul>
+                <div class="navbar__cart-price-sum">
+                  <p>Tổng cộng:</p>
+                  <p class="navbar__cart-sum">49.000₫</p>
+                </div>
+                <a href="" class="navbar__cart-pay">Tiến hành thanh toán</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <div class="app__container">
+        <div class="grid">
+          <nav class="background">
+            <div class="wrapper">
+              <p class="wrapper__header-title">Cửa hàng</p>
+            </div>
+            <a
+              href="../../index.html"
+              title="Về trang chủ"
+              style="color: rgb(216, 82, 82)"
+              >Trang chủ</a
+            >
+            <span> > </span>
+            <span>Cửa hàng</span>
+          </nav>
+          <section class="">
+            <div class="shops__search">
+              <p>Tìm kiếm cửa hàng</p>
+              <select name="search" class="select__search">
+                <option value="">Chọn tỉnh, thành phố</option>
+                <option value="">Quy Nhơn</option>
+              </select>
+              <select name="search" class="select__search">
+                <option value="">Chọn quận, huyện</option>
+              </select>
+              <button class="btn">Tìm kiếm</button>
+            </div>
+
+            <div class="shops__body">
+              <div class="grid_column-4 shops__tab">
+                <div class="shops__tab-title">
+                  <span>Tìm thấy</span>
+                  <span style="font-weight: 600">3</span>
+                  <span>Cửa hàng</span>
+                </div>
+
+                <div class="tab-list">
+                  <div class="tab-item active">
+                    <p class="tab__item-title">Jiki Store 08</p>
+                    <p>08 Tô Vĩnh Diện - TP Quy Nhơn</p>
+                    <p class="tab__item-guide">Chỉ đường</p>
+                  </div>
+                  <div class="tab-item">
+                    <p class="tab__item-title">Jiki Store 599</p>
+                    <p>599 Trần Hưng Đạo - TP Quy Nhơn</p>
+                    <p class="tab__item-guide">Chỉ đường</p>
+                  </div>
+                  <div class="tab-item">
+                    <p class="tab__item-title">Jiki Store 207</p>
+                    <p>207 Lê Hồng Phong - TP Quy Nhơn</p>
+                    <p class="tab__item-guide">Chỉ đường</p>
+                  </div>
+                </div>
+              </div>
+              <div class="shops__maps">
+                <div class="tab-pane active">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.196591444344!2d109.22084097464413!3d13.767015096941957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316f6c92746a73b9%3A0x19d0b54a6a786df6!2zMDggVMO0IFbEqW5oIERp4buHbiwgVHLhuqduIFBow7osIFRow6BuaCBwaOG7kSBRdWkgTmjGoW4sIELDrG5oIMSQ4buLbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1696013701023!5m2!1svi!2s"
+                    width="1150"
+                    height="600"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+                <div class="tab-pane">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d456.0403026457721!2d109.22364544961417!3d13.779460448264437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316f6c84a86b98a1%3A0x20bbe98525db5c45!2zNTk5IFRy4bqnbiBIxrBuZyDEkOG6oW8sIEzDqiBI4buTbmcgUGhvbmcsIFRow6BuaCBwaOG7kSBRdWkgTmjGoW4sIELDrG5oIMSQ4buLbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1696014290663!5m2!1svi!2s"
+                    width="1150"
+                    height="600"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+                <div class="tab-pane">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d753.835964764275!2d109.22585655045128!3d13.774992928081264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316f6c859bea95f9%3A0xebdcce7781dd06f6!2zMjA3IEzDqiBI4buTbmcgUGhvbmcsIFRow6BuaCBwaOG7kSBRdWkgTmjGoW4sIELDrG5oIMSQ4buLbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1696014377651!5m2!1svi!2s"
+                    width="1150"
+                    height="600"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="grid">
+          <div class="margin_50 footer__message">
+            <div class="grid_column-4 footer__contact">
+              <div class="footer__contact-title">
+                <h2>LIÊN HỆ</h2>
+              </div>
+              <div class="footer__menu-list">
+                <ul>
+                  <li>
+                    <a href=""><i class="fa-solid fa-map-location-dot"></i></a>
+                    Cầu giấy, Hà Nội
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-solid fa-phone-volume"></i></a>
+                    0384779108
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    hoangthikhuyen293@gmail.com
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid_column-4 footer__contact">
+              <div class="footer__contact-title">
+                <h2>CHÍNH SÁCH</h2>
+              </div>
+              <div class="footer__menu-list">
+                <ul>
+                  <li><a href="">Trang chủ</a></li>
+                  <li><a href="">Giới thiệu</a></li>
+                  <li><a href="">Tham quan</a></li>
+                  <li><a href="">Sản phẩm</a></li>
+                  <li><a href="">Cửa hàng</a></li>
+                  <li><a href="">Tin tức</a></li>
+                  <li><a href="">Liên hệ</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid_column-4 footer__contact">
+              <div class="footer__contact-title">
+                <h2>DỊCH VỤ</h2>
+              </div>
+              <div class="footer__menu-list">
+                <ul>
+                  <li><a href="">Trang chủ</a></li>
+                  <li><a href="">Giới thiệu</a></li>
+                  <li><a href="">Tham quan</a></li>
+                  <li><a href="">Sản phẩm</a></li>
+                  <li><a href="">Cửa hàng</a></li>
+                  <li><a href="">Tin tức</a></li>
+                  <li><a href="">Liên hệ</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid_column-4 footer__contact">
+              <video
+                controls="controls"
+                style="max-width: 100%; padding-top: 10px"
+              >
+                <source
+                  src="../video/JikiFarm ‐ Được tạo bằng Clipchamp.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="footer__license">
+          <span
+            >@Bản quyền thuộc về
+            <a href="">hoangthikhuyen</a>
+          </span>
+        </div>
+      </footer>
+      <div class="button_scroll2top" onclick="page_scroll2top()">
+        <i class="fa fa-chevron-up icon-chevron"></i>
+      </div>
+      <div class="modal js-modal">
+        <!-- Register form -->
+        <form class="auth-form js-form login-pane active">
+          <div class="modal-close js-modal-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <div class="auth-form__container">
+            <div class="auth-form__header">
+              <h5 class="auth-form__heading">Đăng ký</h5>
+              <span class="auth-form__switch-btn" id="login-link"
+                >Đăng nhập</span
+              >
+            </div>
+            <div class="auth-form__form">
+              <div class="auth-form__group">
+                <input
+                  type="text"
+                  class="auth-form__input"
+                  placeholder="Nhập Email"
+                />
+              </div>
+              <div class="auth-form__group">
+                <input
+                  type="password"
+                  class="auth-form__input"
+                  placeholder="Nhập Mật khẩu"
+                />
+              </div>
+              <div class="auth-form__group">
+                <input
+                  type="password"
+                  class="auth-form__input"
+                  placeholder="Nhập lại mật khẩu"
+                />
+              </div>
+            </div>
+
+            <div class="auth-form__controls">
+              <button class="btn auth-form__controls-back">TRỞ LẠI</button>
+              <button class="btn">ĐĂNG KÝ</button>
+            </div>
+          </div>
+
+          <div class="auth-form__socials">
+            <a href="" class="auth-form__socials--facebook auth-form-btn">
+              <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+              <span class="auth-form__socials-title">Kết nối với facebook</span>
+            </a>
+            <a href="" class="auth-form__socials--google auth-form-btn">
+              <i class="auth-form__socials-icon fab fa-google"></i>
+              <span class="auth-form__socials-title">Kết nối với google</span>
+            </a>
+          </div>
+        </form>
+        <!-- login form -->
+        <form class="auth-form js-form login-pane" id="register-pane">
+          <div class="modal-close js-modal2-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <div class="auth-form__container">
+            <div class="auth-form__header">
+              <h5 class="auth-form__heading">Đăng nhập</h5>
+              <span class="auth-form__switch-btn">Đăng ký</span>
+            </div>
+
+            <div class="auth-form__form">
+              <div class="auth-form__group">
+                <input
+                  type="text"
+                  class="auth-form__input"
+                  placeholder="Nhập Email"
+                />
+              </div>
+              <div class="auth-form__group">
+                <input
+                  type="password"
+                  class="auth-form__input"
+                  placeholder="Nhập Mật khẩu"
+                />
+              </div>
+            </div>
+
+            <div class="auth-form__aside">
+              <div class="auth-form__help">
+                <a href="" class="auth-form__help-link auth-form__help-forgot"
+                  >Quên mật khẩu</a
+                >
+                <span class="auth-form__help-separate"></span>
+                <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+              </div>
+            </div>
+
+            <div class="auth-form__controls">
+              <button class="btn btn-normal auth-form__controls-back">
+                TRỞ LẠI
+              </button>
+              <button class="btn btn--primary">ĐĂNG NHẬP</button>
+            </div>
+          </div>
+
+          <div class="auth-form__socials">
+            <a href="" class="auth-form__socials--facebook auth-form-btn">
+              <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+              <span class="auth-form__socials-title">Kết nối với facebook</span>
+            </a>
+            <a href="" class="auth-form__socials--google auth-form-btn">
+              <i class="auth-form__socials-icon fab fa-google"></i>
+              <span class="auth-form__socials-title">Kết nối với google</span>
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="../js/scroll_btn.js"></script>
+    <script src="../js/form.js"></script>
+
+    <script>
+      const $ = document.querySelector.bind(document);
+      const $$ = document.querySelectorAll.bind(document);
+
+      const tabs = $$(".tab-item");
+      const panes = $$(".tab-pane");
+      tabs.forEach((tab, index) => {
+        const pane = panes[index];
+        tab.onclick = function () {
+          $(".tab-item.active").classList.remove("active");
+          $(".tab-pane.active").classList.remove("active");
+
+          this.classList.add("active");
+          pane.classList.add("active");
+        };
+      });
+    </script>
+  </body>
+</html>
