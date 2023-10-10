@@ -28,6 +28,10 @@
   transition: 0.5s ease;
 }
 
+.navbar__color{
+  color: var(--orange-color) !important;
+}
+
 .navbar__item a {
   text-decoration: none;
   color: #fff;
