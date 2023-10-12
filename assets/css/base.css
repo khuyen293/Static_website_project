@@ -89,12 +89,12 @@ body, html{
     width: 100%;
     background: url('../img/backgroud2.webp');
     background-size: cover;
-    padding: 100px 0px 50px 0px;
+    padding: 70px 0;
     text-align: center;
 }
 
 .wrapper__header-title{
-    margin: 60px 0 20px 0;
+    margin: 0 0 20px 0;
     font-family: 'UTMViceroyJF';
     font-style:italic;
     font-size: 50px;
@@ -331,6 +331,7 @@ body, html{
 
 .footer__menu-list a{
     color: var(--black-color);
+    font-size: 14px;
 }
 
 .footer__menu-list a:hover{
