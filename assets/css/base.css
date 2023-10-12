@@ -67,7 +67,7 @@ body, html{
     width: 17%;
 }
 
-.margin_50{
+.margin_70{
     margin: 0 70px;
 }
 
@@ -170,7 +170,7 @@ body, html{
 
 .productLike-list{
     display: flex;
-    justify-content: space-between;  
+    /* justify-content: space-between;   */
     margin-bottom: 10px;  
 }
 
@@ -178,10 +178,8 @@ body, html{
     display: block;
     position: relative; 
    border: 2px solid #e9e7e7;
-   /* color: #999494; */
    color: var(--orange-color);
    font-size: 13px;
-   /* transition: transform ease-in 0.1s; */
    will-change: transform;
    margin-bottom: 30px;
    transition: transform 0.3s;
@@ -233,6 +231,12 @@ body, html{
     color: var(--primary-color);
     font-weight: 600;
     /* padding: 10px 0 15px 0; */
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding: 0 8px;
+
 }
 
 

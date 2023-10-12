@@ -1,31 +1,111 @@
 /* mobile */
-@media (max-width: 820px){
+
+@media (max-width: 820px) {
     .tb-header{
-        /* display: none !important; */
         display: block;
+        line-height: 30px;
+        
+    }  
+      
+    .tb-header-navbar{
         position: absolute;
-        width: 140px;
-        background-color: var(--orange-color);
-        top: 20px;
-        left: -25px;
+        top: 58px;
+        width: 160px;
+        left: -160px;
+        background-color: var(--while-color);
+        
     }
 
-    .navbar-item a{
-        /* margin-left: 50px; */
+    .navbar__item a{
+        color: var(--black-color);
+        padding: 8px 16px;
     }
 
     .header__navbar{
         padding: 12px 24px !important;
     }
 
-    .header .mobile-menu-btn{
+    .mobile-menu-btn{
         display: block;
+    }
+    .mySlides{
+        height: 400px !important;
+    }
+
+    .info__text{
+        height: 230px;
+    }
+
+    .info__section-img{
+        height: 120px;
+
+    }
+
+    .margin_70{
+        margin: 0 24px !important;
+    }
+
+    .info__text-description{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .margin-180{
+        margin: 0 64px !important;
+    }
+
+    .grid_column-5{
+        width: 45% !important;
+    }
+
+}
+@media (min-width: 391px) and (max-width: 820px){
+    .info__section-ct{
+        display: none;
     }
 
 }
 
-/* tablet & mobile 
+@media (max-width: 391px){
+    .mySlides{
+        height: 200px !important;
+    }
 
-@media (max-width: 63.9375em){
+    .info__section{
+        display: block !important;
+    }
 
-} */
+    .info__section-img{
+        height: 70px;
+    }
+
+    .tb-info_section{
+        display: flex !important; 
+        width: 100% !important;
+        margin-bottom: 16px;  
+
+    }
+    .outstanding__title{
+        font-size: 15px;
+    }
+
+    .info__section-title{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .info__text{
+        display: none;
+
+    }
+    .productLike-tab-item{
+       display: none;
+    }
+
+    .margin-180{
+        margin: 0 !important;
+    }
+   
+}

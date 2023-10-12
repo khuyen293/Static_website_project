@@ -32,7 +32,8 @@
     <div class="app">
       <header class="header">
         <div class="grid header__navbar ">
-          <div>
+          <input type="checkbox" id="nav_check" hidden>
+          <div class="tb-header-navbar">
             <ul class="header__navbar-list tb-header">
               <li class="navbar__item"><a href="./index.html" class="navbar__color">Trang chủ</a></li>
               <li class="navbar__item">
@@ -67,9 +68,13 @@
               </li>
             </ul>
           </div>
-          <div id="mobile-menu" class="mobile-menu-btn">
-            <i class="fa-solid fa-bars"></i>
-          </div>
+          
+          <!-- <div class="mobile-menu-btn">
+            
+          </div> -->
+          <lable for="nav_check" class="mobile-menu-btn">
+            <i id="mobile-menu" class="fa-solid fa-bars"></i>
+          </lable>
           <div>
 
             <ul class="header__navbar-list">
@@ -184,8 +189,8 @@
               <h1>Về chúng tôi</h1>
             </div>
             <div class="info__container-content">
-              <section class="margin_50 info__section">
-                <div class="grid_column-3" style="display: inline-flex">
+              <section class="margin_70 info__section">
+                <div class="grid_column-3 tb-info_section">
                     <img class="info__section-img" src="./assets/img/logo_food.png" />        
                   <div class="info__section-content">
                     <span class="info__section-title">FRAM WORLD FOOD</span>
@@ -195,7 +200,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="grid_column-3" style="display: inline-flex">
+                <div class="grid_column-3 tb-info_section">
                     <img class="info__section-img" src="./assets/img/logo_store.png" />
                   <div class="info__section-content">
                     <span class="info__section-title">FRAM WORLD STORE</span>
@@ -205,7 +210,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="grid_column-3" style="display: inline-flex">
+                <div class="grid_column-3 tb-info_section">
                     <img class="info__section-img" src="./assets/img/Logo_tour.png" />   
                   <div class="info__section-content">
                     <span class="info__section-title">FRAM WORLD TOUR</span>
@@ -262,17 +267,17 @@
             </ul>
             <div class="productLike-tab-content">
               <div
-                class="margin_50 productLike-list-pane1 pane-content active"
+                class="margin_70 productLike-list-pane1 pane-content active"
               ></div>
-              <div class="margin_50 productLike-list-pane2 pane-content"></div>
-              <div class="margin_50 productLike-list-pane3 pane-content"></div>
-              <div class="margin_50 productLike-list-pane4 pane-content"></div>
-              <div class="margin_50 productLike-list-pane5 pane-content"></div>
-              <div class="margin_50 productLike-list-pane6 pane-content"></div>
+              <div class="margin_70 productLike-list-pane2 pane-content"></div>
+              <div class="margin_70 productLike-list-pane3 pane-content"></div>
+              <div class="margin_70 productLike-list-pane4 pane-content"></div>
+              <div class="margin_70 productLike-list-pane5 pane-content"></div>
+              <div class="margin_70 productLike-list-pane6 pane-content"></div>
             </div>
             <a
               href="./assets/html/products.html"
-              class="margin_50 btn btn-prodcutLike"
+              class="margin_70 btn btn-prodcutLike"
               >Xem thêm</a
             >
           </div>
@@ -310,7 +315,7 @@
       </div>
       <footer class="footer">
         <div class="grid">
-          <div class="margin_50 footer__message">
+          <div class="margin_70 footer__message">
             <div class="grid_column-4 footer__contact">
               <div class="footer__contact-title">
                 <h2>LIÊN HỆ</h2>
@@ -504,21 +509,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="./assets/js/slide.js"></script>
     <script>
-      //amimation ve cbung toi
       $(window).scroll(function () {
         if ($(window).scrollTop() >= 250 && $(window).scrollTop() <= 1100) {
-          $(".info__text-img").show();
-        } else {
+          $(".info__text-img").show(); 
+        } else { 
           $(".info__text-img").hide();
-        }
+        } 
       });
-      $(window).scroll(function () {
+      $(window).scroll(function () { 
         if ($(window).scrollTop() >= 250 && $(window).scrollTop() <= 1100) {
-          $(".info__text-content").show();
+          $(".info__text-content").show(); 
         } else {
-          $(".info__text-content").hide();
-        }
-      });
+           $(".info__text-content").hide(); 
+          } 
+        }); 
+
     </script>
     <script>
       const productList = document.querySelector(".productLike-list-pane1");
@@ -797,5 +802,6 @@
     </script>
     <script src="./assets/js/form.js"></script>
     <script src="./assets/js/scroll_btn.js"></script>
+    <script src="./assets/js/menu.js"></script>
   </body>
 </html>
