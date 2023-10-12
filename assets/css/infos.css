@@ -2,22 +2,16 @@
 
 .newInfos{
     display: flex;
-    padding: 0 70px;
+    padding: 32px 70px;
     background-color: var(--primary-color-2);
     margin-top: 80px;
 }
 
 
-.newsInfos-img{
-    width: 100%;
+.newInfos-img{
+    object-fit: scale-down;
+    margin-right: 16px;
 }
-
-
-.newInfos img{
-    max-width: 95%;
-    padding: 20px 20px 20px 0;
-}
-
 
 .history__title{
     font-size: 50px;
@@ -29,7 +23,6 @@
     display: flex;
     padding: 20px  70px;
 }
-
 
 .history__Location2{
     /* background-color: blueviolet; */

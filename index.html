@@ -30,7 +30,7 @@
   <body>
     <div class="app">
       <header class="header">
-        <div class="grid header__navbar">
+        <div class="grid header__navbar ">
           <ul class="header__navbar-list">
             <li class="navbar__item"><a href="./index.html" class="navbar__color">Trang chủ</a></li>
             <li class="navbar__item">
@@ -63,8 +63,11 @@
             <li class="navbar__item">
               <a href="./assets/html/contacts.html">Liên hệ</a>
             </li>
-            <div class="bar"></div>
           </ul>
+          <div id="mobile-menu" class="mobile-menu-btn">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+
           <ul class="header__navbar-list">
             <li class="header__navbar-item header__navbar-user">
               <span class="header__navbar-user-icon">
@@ -156,38 +159,19 @@
       <div class="app__container">
         <div class="grid">
           <!-- Slider -->
-          <div class="slideshow__container" style="max-height: 585px">
-            <div class="mySlides fade">
-              <img
+          <div class="slideshow__container">
+              <img class="mySlides"
                 src="./assets/img/background-home .png"
-                style="height: 585px; width: 100%"
               />
-            </div>
-            <div class="mySlides fade">
-              <img
+              <img class="mySlides"
                 src="./assets/img/slide2.png"
-                style="max-height: 585px; width: 100%"
               />
-            </div>
-            <div class="mySlides fade">
-              <img
+              <img class="mySlides"
                 src="./assets/img/slide3.png"
-                style="max-height: 585px; width: 100%"
               />
-            </div>
-            <!-- <div class="mySlides fade">
-                        <img src="./assets/img/silde_pade4.jpg" style="max-height: 585px; width: 100%">
-                    </div> -->
             <!-- Next and previous buttons -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            <br />
-          </div>
-          <div style="text-align: center">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
           </div>
           <!-- Infomation -->
           <div class="info__container">
@@ -197,36 +181,30 @@
             <div class="info__container-content">
               <section class="margin_50 info__section">
                 <div class="grid_column-3" style="display: inline-flex">
-                  <div class="info__section-img">
-                    <img src="./assets/img/logo_food.png" />
-                  </div>
+                    <img class="info__section-img" src="./assets/img/logo_food.png" />        
                   <div class="info__section-content">
                     <span class="info__section-title">FRAM WORLD FOOD</span>
-                    <p>
+                    <p class="info__section-ct">
                       Nông trại rau Farm world thân thiện môi trường, sản phẩm
                       chất lượng, truy xuất kiểm chứng, đặt hàng, theo dõi
                     </p>
                   </div>
                 </div>
                 <div class="grid_column-3" style="display: inline-flex">
-                  <div class="info__section-img">
-                    <img src="./assets/img/logo_store.png" />
-                  </div>
+                    <img class="info__section-img" src="./assets/img/logo_store.png" />
                   <div class="info__section-content">
                     <span class="info__section-title">FRAM WORLD STORE</span>
-                    <p>
+                    <p class="info__section-ct">
                       Farm world có hệ thống phân phối rộng khắp cùng hệ thống
                       đặt hàng trực tuyến bắt kịp xu hướng công nghệ hiện đại
                     </p>
                   </div>
                 </div>
                 <div class="grid_column-3" style="display: inline-flex">
-                  <div class="info__section-img">
-                    <img src="./assets/img/Logo_tour.png" />
-                  </div>
+                    <img class="info__section-img" src="./assets/img/Logo_tour.png" />   
                   <div class="info__section-content">
                     <span class="info__section-title">FRAM WORLD TOUR</span>
-                    <p>
+                    <p class="info__section-ct">
                       Hoạt động du lịch sinh thái trải nghiệm, học tập và thư
                       giãn, thưởng thức những loại rau củ quả tươi ngon nhất
                     </p>
@@ -236,9 +214,7 @@
               <div class="info__text">
                 <h1 class="info__text-heading">Câu chuyện của chúng tôi</h1>
                 <div class="info__text-about">
-                  <div class="grid_column-2 info__text-img">
-                    <img src="./assets/img/home_info_img.jpg" />
-                  </div>
+                    <img class="grid_column-2 info__text-img" src="./assets/img/home_info_img.jpg" />
                   <div class="grid_column-2 info__text-content">
                     <p class="info__text-description">
                       Farm world là một nông trại đặc biệt tập trung vào việc sản

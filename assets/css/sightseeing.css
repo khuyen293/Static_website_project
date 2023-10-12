@@ -10,7 +10,6 @@
     border-bottom: 2px solid #f9690e;
     margin: 24px 200px 40px 200px;
     position: relative;
-    height: 20px;
 
 }
 
@@ -49,17 +48,17 @@
 
 .review__list-box{
     display: flex;
-    position: relative;
     height: 250px;
+    /* max-width: 100%; */
     flex: 1;
 }
 
-.review__list-img-cover img{
-    min-height: 100%;
+.review__list-img-cover{
+    position: relative;
     border-radius: 15px;
     border: 2px solid #e9e7e7;
-    width: 420px;
     border: none;
+    width: 420px;
 
 }
 
@@ -93,7 +92,6 @@
 } 
 
 .review__list-content-img img{
-    width: 210px;
     height: 130px;
     border-radius: 5px;
 }
@@ -117,7 +115,6 @@
     align-items: center;
     background-color: currentColor;
     height: 32px;
-    /* width: 80%; */
 
 }
 
@@ -189,10 +186,9 @@
 .trip__map-list{
     display: flex;
     border-top: 2px solid #e9e7e7;
-    height: 120px;
-    /* justify-content: center; */
     align-items: center;
     margin: 0 10px;
+    padding: 8px 0;
 }
 
 .trip__map-list:nth-child(1){

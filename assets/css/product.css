@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
+  width: 100%;
 }
 
 .products__main-list {
@@ -15,14 +16,9 @@
 }
 
 .products__main-item {
+  width: 100%;
   display: flex;
-  justify-content: center;
-  height: 170px;
-}
-
-.products__main-item img {
-  width: 150px;
-  height: 170px;
+  justify-content: center; 
 }
 
 .products__main-title {
@@ -32,7 +28,7 @@
   justify-content: center;
   align-items: center;
   height: 40px;
-  width: 150px;
+  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

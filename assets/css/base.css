@@ -1,16 +1,15 @@
+
 :root{
     --primary-color: #80bb35;
-    /* --primary-color: rgb(219, 192, 105); */
     --while-color: #fff;
     --black-color: #333;
-    --navbar-height: 70px;
     --primary-color-2: #e8ecee;
     --orange-color: #f9690e;
 }
 
 *{
-    box-sizing: inherit;
-    font-size: 16px;
+    box-sizing: border-box;
+    font-size: 14px;
     text-decoration: none;
     list-style: none;
     margin: 0;
@@ -18,14 +17,12 @@
     position: relative;
 }
 
-html{
-    box-sizing: border-box;
-    font-size: 62,5%;
-    line-height: 1.6rem;
+body, html{
     font-family: 'Quicksand', sans-serif;
+    line-height: 1.8em;
     text-align: justify;
-    display: block;  
-     
+    background-color: #F5F5F5; 
+    width: 100%;
 }
 
 .btn{
@@ -45,7 +42,6 @@ html{
 
 .grid{
     width: 100%;
-    /* max-height: 100%; */
 }
 
 .grid_column-3{
@@ -72,7 +68,7 @@ html{
 }
 
 .margin_50{
-    margin: 0 50px;
+    margin: 0 70px;
 }
 
 .margin_16{
@@ -91,12 +87,10 @@ html{
 
 .background{
     width: 100%;
-    background: url('../img/backgroud2.webp')  no-repeat;;
+    background: url('../img/backgroud2.webp');
     background-size: cover;
-    background-position: center;
     padding: 100px 0px 50px 0px;
     text-align: center;
-    /* margin-top: 30px; */
 }
 
 .wrapper__header-title{
@@ -114,7 +108,7 @@ html{
     font-size: 20px;
     color: var(--primary-color);
     font-family: 'Bad Script', cursive;
-    margin-top: 16px;
+    padding-top: 16px;
 }
 
 .margin-top{
@@ -163,6 +157,7 @@ html{
 /* slide */
 .mySlides{
     position: relative;
+    width: 100%;
 }
   
 /* product */
@@ -182,7 +177,7 @@ html{
 .productLike-item{
     display: block;
     position: relative; 
-   border: 1px solid #e9e7e7;
+   border: 2px solid #e9e7e7;
    /* color: #999494; */
    color: var(--orange-color);
    font-size: 13px;
@@ -190,6 +185,7 @@ html{
    will-change: transform;
    margin-bottom: 30px;
    transition: transform 0.3s;
+   background-color: var(--while-color);
 }
 
 .shopping-basket{
@@ -215,7 +211,7 @@ html{
 .productLike-item:hover{
     /* transform: translateY(-3px); */
     transform: scale(1.03);
-    box-shadow: 0 10px 25px 0 rgba(30, 29, 29, 0.1);
+    box-shadow: 0 0 25px rgba(23, 0, 0, 0.1);
 }
 
 .productLike-item:hover .shopping-basket{
@@ -241,9 +237,9 @@ html{
 
 
 .productLike-item img{
-    width: 160px;
+    width: 70%;
     object-fit: scale-down;
-    height: 160px;
+    height: 70%;
     margin: 20px 0;
     
 }

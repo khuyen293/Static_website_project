@@ -1,6 +1,6 @@
 .header {
   z-index: 9999;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -10,16 +10,23 @@
 
 .header__navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 12px 70px;
 }
 
 .header__navbar-list {
   list-style: none; /* ẩn đi dấu chấm đầu */
   display: flex;
-  line-height: 50px;
+  /* line-height: 50px; */
   padding-left: 0;
   position: relative;
   cursor: pointer;
+}
+
+.header .mobile-menu-btn{
+  /* top: 0; */
+  /* display: none; */
+  position: absolute; 
 }
 
 .navbar__item {
@@ -269,9 +276,17 @@
 }
 
 #app__container {
-  margin-top: 70px;
   width: 100%;
   overflow: auto;
+}
+
+.slideshow__container{
+  width: 100%;
+}
+
+.slideshow__container img{
+  width: 100%;
+  height: 570px;
 }
 
 .prev,
@@ -299,11 +314,6 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
 @keyframes fade {
   from {
     opacity: 0.4;
@@ -323,20 +333,27 @@
   justify-content: space-between;
 }
 
-.info__section-img img {
-  width: 120px;
-  height: 120px;
-  margin-right: 5px;
+.info__section-img{
+  width: 60%;
+  height: 110px;
+  margin-right: 8px;
 }
 
 .info__section-title {
   font-weight: 600;
 }
 
+.info__section-ct{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .info__text {
+  margin-top: 16px;
   background-color: #fff;
-  height: 420px;
-  width: 1000px;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -344,11 +361,12 @@
 .info__text-heading {
   padding-top: 16px;
   text-align: center;
+  margin: 0;
 }
 .info__text-about {
+  padding: 16px;
   display: flex;
   justify-content: center;
-  margin: 0 16px;
 }
 
 .info__text-img {
@@ -357,6 +375,7 @@
   position: relative;
   animation: showimg 1s ease;
   align-items: center;
+  object-fit: scale-down;
 }
 
 @keyframes showimg {
@@ -460,6 +479,7 @@
 
 .news__list-item img {
   max-width: 50%;
+  object-fit: scale-down;
 }
 
 .news_list-content {
