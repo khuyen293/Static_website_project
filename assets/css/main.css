@@ -638,6 +638,7 @@
   font-size: 12px !important;
   color: var(--while-color);
   border-radius: 5px;
+  margin-bottom: 8px;
 }
 
 .auth-form__socials-icon {
@@ -651,6 +652,7 @@
 
 .auth-form__socials-title {
   margin: 0 4px;
+  text-align: center;
 }
 
 .auth-form__socials--google {

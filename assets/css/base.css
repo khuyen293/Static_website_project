@@ -55,6 +55,7 @@ body, html{
 .grid_column-4{
     width: 24%;
 }
+
 .grid_column-5{
     width: 20%;
 }
@@ -169,8 +170,7 @@ body, html{
 
 
 .productLike-list{
-    display: flex;
-    /* justify-content: space-between;   */
+    /* display: flex; */
     margin-bottom: 10px;  
 }
 

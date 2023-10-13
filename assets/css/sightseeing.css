@@ -8,7 +8,7 @@
 }
 .review__box-empyt{
     border-bottom: 2px solid #f9690e;
-    margin: 24px 200px 40px 200px;
+    margin: 30px 200px 40px 200px;
     position: relative;
 
 }
@@ -20,7 +20,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 7px 10px;
-    margin-top: 7px;
+    margin-top: -1px;
     border-radius: 20px;
     color: #fff;
     background-color: var(--primary-color);
@@ -146,11 +146,16 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    flex-wrap: wrap;
 }
 
+.review__experience-list{
+    margin: 16px 0;
+}
 .review__experience-list p{
     font-weight: 600;
 }
+
 .review__experience-list img{
     width: 100%;
     height: 219px;
@@ -160,7 +165,6 @@
 .container__trip{
     margin-top: 50px;
     display: flex;
-
 }
 
 .trip__left{

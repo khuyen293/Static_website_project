@@ -18,13 +18,13 @@
 
 .shops__body{
     display: flex;
-    /* justify-content: space-between; */
+    /* justify-content: center; */
     background-color: var(--primary-color-2);
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 .shops__tab-title{
-    padding: 10px 0;
+    padding: 10px;
 }
 
 .tab-item{
