@@ -1,27 +1,33 @@
 /* mobile */
 
 @media (max-width: 820px) {
+
+    .mobile-menu-btn{
+        display: block;
+    }
+
     .tb-header{
         display: block;
         line-height: 30px;       
     }  
       
     .tb-header-navbar{
+        display: none;
         position: absolute;
         top: 58px;
         width: 160px;
-        left: -160px;
+        left: 0;
         background-color: var(--while-color);
         
+    }
+
+    .open{
+        display: flex;
     }
 
     .navbar__item a{
         color: var(--black-color);
         padding: 8px 16px;
-    }
-
-    .mobile-menu-btn{
-        display: block;
     }
 
     .info__text{

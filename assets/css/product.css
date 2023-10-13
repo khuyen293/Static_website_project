@@ -4,7 +4,6 @@
   justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 20px;
-  width: 100%;
 }
 
 .products__main-list {
@@ -16,10 +15,14 @@
 }
 
 .products__main-item {
-  width: 100%;
   display: flex;
-  /* justify-content: center;  */
-  height: 130px;
+  justify-content: center;
+  height: 150px;
+}
+
+.products__main-item img {
+  width: 130px;
+  height: 150px;
 }
 
 .products__main-title {
@@ -36,9 +39,7 @@
   font-weight: 600;
   color: var(--black-color);
   font-family: 'Quicksand', sans-serif;
-
-
-}
+} */
 
 .products__main-title:hover {
   background-color: var(--orange-color);
