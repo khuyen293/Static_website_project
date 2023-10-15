@@ -16,7 +16,7 @@
     height: 100%;
     background-color: var(--primary-color-2);
     padding: 24px;
-    animation: menu ease 1s;
+    animation: menu ease 0.5s;
   }
 
   @keyframes menu {
@@ -199,11 +199,9 @@
     width: 100%;
   }
 
-  .contacts__googlemap iframe {
-    width: 100% !important;
-  }
 
   .contacts__info {
+    margin-top: 50px !important;
     padding: 0 24px !important;
   }
 
@@ -215,7 +213,7 @@
 @media (min-width: 451px) and (max-width: 820px) {
   .tb-mb-menu {
     width: 400px;
-    top: 97px;
+    top: 81px;
   }
 
   .tb-mb-item {
@@ -223,16 +221,16 @@
   }
 
   .tb-mb-item a {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .header__navbar {
-    padding: 24px !important;
+    padding: 18px 24px !important;
   }
 
   .header__navbar-item i,
   .mobile-menu-btn i {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .background {
@@ -355,6 +353,15 @@
     height: 200px;
   }
 
+  .contacts__googlemap iframe {
+    width: 100% !important;
+    height: 400px;
+  }
+
+  .part__box{
+    margin-top: -60px;
+  }
+
   .contacts__form {
     padding: 30px 64px 100px 64px;
   }
@@ -362,18 +369,19 @@
 
 @media (max-width: 450px) {
   .tb-mb-menu {
-    top: 69px;
+    top: 61px;
   }
+
   .tb-mb-item {
-    padding: 14px 0;
+    padding: 16px 0;
   }
 
   .tb-mb-item a {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .header__navbar {
-    padding: 12px 24px !important;
+    padding: 8px 24px !important;
   }
 
   .mySlides,
@@ -576,7 +584,22 @@
   /* contacts */
   .grid_column-49 {
     width: 100%;
+  }
+
+  .mobile-part-box1{
+    /* margin: 16px 0; */
+    margin-top: -70px;
+  }
+
+  .mobile-part-box2{
     margin: 24px 0;
+
+
+  }
+
+  .contacts__googlemap iframe {
+    width: 100% !important;
+    height: 200px;
   }
 
   .contacts__form {
