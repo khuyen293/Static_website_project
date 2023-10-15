@@ -1,14 +1,12 @@
-const navUser1 = document.querySelector(".mobile-menu-btn");
-const modal = document.querySelector(".tb-header-navbar");
-const register = document.querySelector(".tb-header");
+function toggleMenu() {
+  const menu = document.getElementById("menu");
+  menu.style.display = menu.style.display === "none" ? "block" : "none";
+}
 
-function showBuyTickets() {
-  modal.classList.add("open");
-}
-function hideBuyTickets() {
-  modal.classList.remove("open");
-}
-navUser1.addEventListener("click", showBuyTickets);
-register.addEventListener("click", function (event) {
-  event.stopPropagation();
-});
+// document.addEventListener("click", function(event) {
+//   const menu = document.getElementById("menu");
+//   const targetElement = event.target;
+//   if (!menu.contains(targetElement) && !targetElement.classList.contains("mobile-menu-btn")) {
+//     menu.style.display = "none";
+//   }
+// });

@@ -32,14 +32,30 @@
   </head>
   <body>
     <div class="app">
+      <div class="tb-mb-menu" id="menu">
+        <img class="tb-mb-menu-img" src="../img/logo.png">
+        <div class="tb-mb-content">
+          <ul class="tb-mb-list">
+            <li class="tb-mb-item"><a href="../../index.html">TRANG CHỦ</a></li>
+            <li class="tb-mb-item"><a href="./infos.html" class="navbar__color">GIỚI THIỆU</a></li>
+            <li class="tb-mb-item"><a href="./sightseeings.html">THAM QUAN</a></li>
+            <li class="tb-mb-item"><a href="./products.html">SẢN PHẨM</a></li>
+            <li class="tb-mb-item"><a href="./shops.html">CỬA HÀNG</a></li>
+            <li class="tb-mb-item"><a href="./blogs.html">TIN TỨC</a></li>
+            <li class="tb-mb-item"><a href="./contacts.html">LIÊN HỆ</a></li>
+          </ul>
+        </div>
+
+      </div>
       <header class="header">
         <div class="grid header__navbar ">
-          <input type="checkbox" id="nav_check" hidden>
-          <div class="tb-header-navbar">
-            <ul class="header__navbar-list tb-header">
+              <div class="mobile-menu-btn" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <ul class="header__navbar-list tb-header">
               <li class="navbar__item"><a href="../../index.html">Trang chủ</a></li>
               <li class="navbar__item">
-                <a href="../html/infos.html"  class="navbar__color">Giới thiệu</a>
+                <a href="../html/infos.html" class="navbar__color">Giới thiệu</a>
               </li>
               <li class="navbar__item">
                 <a href="../html/sightseeings.html">Tham quan</a>
@@ -68,17 +84,7 @@
               <li class="navbar__item">
                 <a href="../html/contacts.html">Liên hệ</a>
               </li>
-            </ul>
-          </div>
-          
-          <!-- <div class="mobile-menu-btn">
-            
-          </div> -->
-          <lable for="nav_check" class="mobile-menu-btn">
-            <i id="mobile-menu" class="fa-solid fa-bars"></i>
-          </lable>
-          <div>
-
+            </ul>          
             <ul class="header__navbar-list">
               <li class="header__navbar-item header__navbar-user">
                 <span class="header__navbar-user-icon">
@@ -103,7 +109,7 @@
                       <a href="" class="navbar__cart-item">
                         <img
                           class="navbar__cart-img"
-                          src="./assets/img/cachuabi.png"
+                          src="../img/cachuabi.png"
                         />
                         <div class="navbar__cart-item-info">
                           <p class="navbar__cart-item-name">Cà chua bi</p>
@@ -122,7 +128,7 @@
                       <a href="" class="navbar__cart-item">
                         <img
                           class="navbar__cart-img"
-                          src="./assets/img/bongthienly.webp"
+                          src="../img/bongthienly.webp"
                         />
                         <div class="navbar__cart-item-info">
                           <p class="navbar__cart-item-name">Bông thiên lý</p>
@@ -141,7 +147,7 @@
                       <a href="" class="navbar__cart-item">
                         <img
                           class="navbar__cart-img"
-                          src="./assets/img/noibat4.webp"
+                          src="../img/noibat4.webp"
                         />
                         <div class="navbar__cart-item-info">
                           <p class="navbar__cart-item-name">Cà rốt</p>
@@ -165,7 +171,6 @@
                 </div>
               </li>
             </ul>
-          </div>
         </div>
       </header>
       <div class="app__container">
@@ -491,6 +496,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="../js/scroll_btn.js"></script>
     <script src="../js/form.js"></script>
+    <script src="../js/menu.js"></script>
     <script>
       $(window).scroll(function () {
         if ($(window).scrollTop() >= 250) {

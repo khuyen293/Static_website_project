@@ -86,6 +86,13 @@ body, html{
     display: block;
 }
 
+.closebtn{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
 .background{
     width: 100%;
     background: url('../img/backgroud2.webp');

@@ -1,4 +1,4 @@
-
+  
 const navUser1 = document.querySelector(".btn-1");
 const modal = document.querySelector(".js-modal");
 const register = document.querySelector(".js-form");
