@@ -22,7 +22,7 @@
       src="https://kit.fontawesome.com/a076d05399.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/png">
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/png" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
@@ -30,160 +30,169 @@
   </head>
   <body>
     <div class="app">
-      <div class="tb-mb-menu" id="menu">
-        <img class="tb-mb-menu-img" src="./assets/img/logo.png">
+      <div class="tb-mb-menu" id="menu" style="display: none">
+        <img class="tb-mb-menu-img" src="./assets/img/logo.png" />
         <div class="tb-mb-content">
           <ul class="tb-mb-list">
-            <li class="tb-mb-item"><a href="./index.html"  class="navbar__color">TRANG CHỦ</a></li>
-            <li class="tb-mb-item"><a href="./assets/html/infos.html">GIỚI THIỆU</a></li>
-            <li class="tb-mb-item"><a href="./assets/html/sightseeings.html">THAM QUAN</a></li>
-            <li class="tb-mb-item"><a href="./assets/html/products.html">SẢN PHẨM</a></li>
-            <li class="tb-mb-item"><a href="./assets/html/shops.html">CỬA HÀNG</a></li>
-            <li class="tb-mb-item"><a href="./assets/html/blogs.html">TIN TỨC</a></li>
-            <li class="tb-mb-item"><a href="./assets/html/contacts.html">LIÊN HỆ</a></li>
+            <li class="tb-mb-item">
+              <a href="./index.html" class="navbar__color">TRANG CHỦ</a>
+            </li>
+            <li class="tb-mb-item">
+              <a href="./assets/html/infos.html">GIỚI THIỆU</a>
+            </li>
+            <li class="tb-mb-item">
+              <a href="./assets/html/sightseeings.html">THAM QUAN</a>
+            </li>
+            <li class="tb-mb-item">
+              <a href="./assets/html/products.html">SẢN PHẨM</a>
+            </li>
+            <li class="tb-mb-item">
+              <a href="./assets/html/shops.html">CỬA HÀNG</a>
+            </li>
+            <li class="tb-mb-item">
+              <a href="./assets/html/blogs.html">TIN TỨC</a>
+            </li>
+            <li class="tb-mb-item">
+              <a href="./assets/html/contacts.html">LIÊN HỆ</a>
+            </li>
           </ul>
         </div>
-
       </div>
       <header class="header">
-        <div class="grid header__navbar ">
-              <div class="mobile-menu-btn" onclick="toggleMenu()">
-                <i class="fa-solid fa-bars"></i>
-              </div>
-              <ul class="header__navbar-list tb-header">
-                <li class="navbar__item"><a href="./index.html" class="navbar__color">Trang chủ</a></li>
-                <li class="navbar__item">
-                  <a href="./assets/html/infos.html">Giới thiệu</a>
-                </li>
-                <li class="navbar__item">
-                  <a href="./assets/html/sightseeings.html">Tham quan</a>
-                </li>
-                <li class="navbar__item header__navbar-product">
-                  <a href="./assets/html/products.html"
-                    >Sản phẩm <i class="fa fa-caret-down"></i
-                  ></a>
-                  <ul class="header__navbar-nameproduct header__navbar-before">
-                    <li><a href="">Trái cây</a></li>
-                    <li><a href="">Rau ăn lá</a></li>
-                    <li><a href="">Rau ăn củ</a></li>
-                    <li><a href="">Rau ăn quả</a></li>
-                    <li><a href="">Rau gia vị</a></li>
-                    <li style="border-bottom: none">
-                      <a href="">Thịt tươi sống</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="navbar__item">
-                  <a href="./assets/html/shops.html">Cửa hàng</a>
-                </li>
-                <li class="navbar__item">
-                  <a href="./assets/html/blogs.html">Tin tức</a>
-                </li>
-                <li class="navbar__item">
-                  <a href="./assets/html/contacts.html">Liên hệ</a>
+        <div class="grid header__navbar">
+          <div class="mobile-menu-btn" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <ul class="header__navbar-list tb-header">
+            <li class="navbar__item">
+              <a href="./index.html" class="navbar__color">Trang chủ</a>
+            </li>
+            <li class="navbar__item">
+              <a href="./assets/html/infos.html">Giới thiệu</a>
+            </li>
+            <li class="navbar__item">
+              <a href="./assets/html/sightseeings.html">Tham quan</a>
+            </li>
+            <li class="navbar__item header__navbar-product">
+              <a href="./assets/html/products.html"
+                >Sản phẩm <i class="fa fa-caret-down"></i
+              ></a>
+              <ul class="header__navbar-nameproduct header__navbar-before">
+                <li><a href="">Trái cây</a></li>
+                <li><a href="">Rau ăn lá</a></li>
+                <li><a href="">Rau ăn củ</a></li>
+                <li><a href="">Rau ăn quả</a></li>
+                <li><a href="">Rau gia vị</a></li>
+                <li style="border-bottom: none">
+                  <a href="">Thịt tươi sống</a>
                 </li>
               </ul>
-              <ul class="header__navbar-list">
-                <li class="header__navbar-item header__navbar-user">
-                  <span class="header__navbar-user-icon">
-                    <i class="fas fa-user-plus"></i>
-                  </span>
-                  <ul class="header__navbar-user-menu header__navbar-before">
-                    <li class="header__navbar-user-item btn-1">
-                      <button class="">Đăng ký</button>
-                    </li>
-                    <li class="header__navbar-user-item btn-2">
-                      <button>Đăng nhập</button>
-                    </li>
-                  </ul>
+            </li>
+            <li class="navbar__item">
+              <a href="./assets/html/shops.html">Cửa hàng</a>
+            </li>
+            <li class="navbar__item">
+              <a href="./assets/html/blogs.html">Tin tức</a>
+            </li>
+            <li class="navbar__item">
+              <a href="./assets/html/contacts.html">Liên hệ</a>
+            </li>
+          </ul>
+          <ul class="header__navbar-list">
+            <li class="header__navbar-item header__navbar-user">
+              <span class="header__navbar-user-icon">
+                <i class="fas fa-user-plus"></i>
+              </span>
+              <ul class="header__navbar-user-menu header__navbar-before">
+                <li class="header__navbar-user-item btn-1">
+                  <button class="">Đăng ký</button>
                 </li>
-                <li class="header__navbar-item header__navbar-cart">
-                  <span class="header__navbar-cart-icon">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                  </span>
-                  <div class="navbar__cart-list header__navbar-before">
-                    <ul class="navbar__cart-list-item">
-                      <li class="navbar__cart-li">
-                        <a href="" class="navbar__cart-item">
-                          <img
-                            class="navbar__cart-img"
-                            src="./assets/img/cachuabi.png"
-                          />
-                          <div class="navbar__cart-item-info">
-                            <p class="navbar__cart-item-name">Cà chua bi</p>
-                            <div class="navbar__cart-item-price-wrap">
-                              <span class="navbar__cart-item-price">10.000đ</span>
-                              <span class="navbar__cart-item-multiply">x</span>
-                              <span class="navbar__cart-item-quantity">1</span>
-                            </div>
-                          </div>
-                        </a>
-                        <div class="navbar__cart-close">
-                          <i class="fa-solid fa-xmark"></i>
+                <li class="header__navbar-user-item btn-2">
+                  <button>Đăng nhập</button>
+                </li>
+              </ul>
+            </li>
+            <li class="header__navbar-item header__navbar-cart">
+              <span class="header__navbar-cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+              <div class="navbar__cart-list header__navbar-before">
+                <ul class="navbar__cart-list-item">
+                  <li class="navbar__cart-li">
+                    <a href="" class="navbar__cart-item">
+                      <img
+                        class="navbar__cart-img"
+                        src="./assets/img/cachuabi.png"
+                      />
+                      <div class="navbar__cart-item-info">
+                        <p class="navbar__cart-item-name">Cà chua bi</p>
+                        <div class="navbar__cart-item-price-wrap">
+                          <span class="navbar__cart-item-price">10.000₫</span>
+                          <span class="navbar__cart-item-multiply">x</span>
+                          <span class="navbar__cart-item-quantity">1</span>
                         </div>
-                      </li>
-                      <li class="navbar__cart-li">
-                        <a href="" class="navbar__cart-item">
-                          <img
-                            class="navbar__cart-img"
-                            src="./assets/img/bongthienly.webp"
-                          />
-                          <div class="navbar__cart-item-info">
-                            <p class="navbar__cart-item-name">Bông thiên lý</p>
-                            <div class="navbar__cart-item-price-wrap">
-                              <span class="navbar__cart-item-price">27.000đ</span>
-                              <span class="navbar__cart-item-multiply">x</span>
-                              <span class="navbar__cart-item-quantity">3</span>
-                            </div>
-                          </div>
-                        </a>
-                        <div class="navbar__cart-close">
-                          <i class="fa-solid fa-xmark"></i>
-                        </div>
-                      </li>
-                      <li class="navbar__cart-li">
-                        <a href="" class="navbar__cart-item">
-                          <img
-                            class="navbar__cart-img"
-                            src="./assets/img/noibat4.webp"
-                          />
-                          <div class="navbar__cart-item-info">
-                            <p class="navbar__cart-item-name">Cà rốt</p>
-                            <div class="navbar__cart-item-price-wrap">
-                              <span class="navbar__cart-item-price">12.000đ</span>
-                              <span class="navbar__cart-item-multiply">x</span>
-                              <span class="navbar__cart-item-quantity">2</span>
-                            </div>
-                          </div>
-                        </a>
-                        <div class="navbar__cart-close">
-                          <i class="fa-solid fa-xmark"></i>
-                        </div>
-                      </li>
-                    </ul>
-                    <div class="navbar__cart-price-sum">
-                      <p>Tổng cộng:</p>
-                      <p class="navbar__cart-sum">49.000₫</p>
+                      </div>
+                    </a>
+                    <div class="navbar__cart-close">
+                      <i class="fa-solid fa-xmark"></i>
                     </div>
-                    <a href="" class="navbar__cart-pay">Tiến hành thanh toán</a>
-                  </div>
-                </li>
-              </ul>
+                  </li>
+                  <li class="navbar__cart-li">
+                    <a href="" class="navbar__cart-item">
+                      <img
+                        class="navbar__cart-img"
+                        src="./assets/img/bongthienly.webp"
+                      />
+                      <div class="navbar__cart-item-info">
+                        <p class="navbar__cart-item-name">Bông thiên lý</p>
+                        <div class="navbar__cart-item-price-wrap">
+                          <span class="navbar__cart-item-price">27.000₫</span>
+                          <span class="navbar__cart-item-multiply">x</span>
+                          <span class="navbar__cart-item-quantity">3</span>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="navbar__cart-close">
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </li>
+                  <li class="navbar__cart-li">
+                    <a href="" class="navbar__cart-item">
+                      <img
+                        class="navbar__cart-img"
+                        src="./assets/img/noibat4.webp"
+                      />
+                      <div class="navbar__cart-item-info">
+                        <p class="navbar__cart-item-name">Cà rốt</p>
+                        <div class="navbar__cart-item-price-wrap">
+                          <span class="navbar__cart-item-price">12.000₫</span>
+                          <span class="navbar__cart-item-multiply">x</span>
+                          <span class="navbar__cart-item-quantity">2</span>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="navbar__cart-close">
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </li>
+                </ul>
+                <div class="navbar__cart-price-sum">
+                  <p>Tổng cộng:</p>
+                  <p class="navbar__cart-sum">49.000₫</p>
+                </div>
+                <a href="" class="navbar__cart-pay">Tiến hành thanh toán</a>
+              </div>
+            </li>
+          </ul>
         </div>
       </header>
       <div class="app__container">
         <div class="grid">
           <!-- Slider -->
           <div class="slideshow__container">
-              <img class="mySlides"
-                src="./assets/img/background-home .png"
-              />
-              <img class="mySlides"
-                src="./assets/img/slide2.png"
-              />
-              <img class="mySlides"
-                src="./assets/img/slide3.png"
-              />
+            <img class="mySlides" src="./assets/img/background-home .png" />
+            <img class="mySlides" src="./assets/img/slide2.png" />
+            <img class="mySlides" src="./assets/img/slide3.png" />
             <!-- Next and previous buttons -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -196,7 +205,10 @@
             <div class="info__container-content">
               <section class="margin_70 info__section">
                 <div class="grid_column-3 tb-info_section">
-                    <img class="info__section-img" src="./assets/img/logo_food.png" />        
+                  <img
+                    class="info__section-img"
+                    src="./assets/img/logo_food.png"
+                  />
                   <div class="info__section-content">
                     <span class="info__section-title">FRAM WORLD FOOD</span>
                     <p class="info__section-ct">
@@ -206,7 +218,10 @@
                   </div>
                 </div>
                 <div class="grid_column-3 tb-info_section">
-                    <img class="info__section-img" src="./assets/img/logo_store.png" />
+                  <img
+                    class="info__section-img"
+                    src="./assets/img/logo_store.png"
+                  />
                   <div class="info__section-content">
                     <span class="info__section-title">FRAM WORLD STORE</span>
                     <p class="info__section-ct">
@@ -216,7 +231,10 @@
                   </div>
                 </div>
                 <div class="grid_column-3 tb-info_section">
-                    <img class="info__section-img" src="./assets/img/Logo_tour.png" />   
+                  <img
+                    class="info__section-img"
+                    src="./assets/img/Logo_tour.png"
+                  />
                   <div class="info__section-content">
                     <span class="info__section-title">FRAM WORLD TOUR</span>
                     <p class="info__section-ct">
@@ -229,15 +247,18 @@
               <div class="info__text">
                 <h1 class="info__text-heading">Câu chuyện của chúng tôi</h1>
                 <div class="info__text-about">
-                    <img class="grid_column-2 info__text-img" src="./assets/img/home_info_img.jpg" />
+                  <img
+                    class="grid_column-2 info__text-img"
+                    src="./assets/img/home_info_img.jpg"
+                  />
                   <div class="grid_column-2 info__text-content">
                     <p class="info__text-description">
-                      Farm world là một nông trại đặc biệt tập trung vào việc sản
-                      xuất và cung cấp các loại thực phẩm sạch và hữu cơ cho du
-                      khách. Nằm giữa cảnh quan tươi đẹp của thiên nhiên, nông
-                      trại này tạo ra một môi trường lý tưởng để khám phá và
-                      trải nghiệm về nông nghiệp bền vững và chế độ ăn uống lành
-                      mạnh.
+                      Farm world là một nông trại đặc biệt tập trung vào việc
+                      sản xuất và cung cấp các loại thực phẩm sạch và hữu cơ cho
+                      du khách. Nằm giữa cảnh quan tươi đẹp của thiên nhiên,
+                      nông trại này tạo ra một môi trường lý tưởng để khám phá
+                      và trải nghiệm về nông nghiệp bền vững và chế độ ăn uống
+                      lành mạnh.
                     </p>
                     <a href="./assets/html/infos.html" class="btn">Xem thêm</a>
                   </div>
@@ -418,6 +439,7 @@
                   class="auth-form__input"
                   placeholder="Nhập Email"
                 />
+                <i class="fa-solid fa-envelope"></i>
               </div>
               <div class="auth-form__group">
                 <input
@@ -425,6 +447,7 @@
                   class="auth-form__input"
                   placeholder="Nhập Mật khẩu"
                 />
+                <i class="fa-solid fa-lock"></i>
               </div>
               <div class="auth-form__group">
                 <input
@@ -432,6 +455,7 @@
                   class="auth-form__input"
                   placeholder="Nhập lại mật khẩu"
                 />
+                <i class="fa-solid fa-lock"></i>
               </div>
             </div>
 
@@ -470,6 +494,7 @@
                   class="auth-form__input"
                   placeholder="Nhập Email"
                 />
+                <i class="fa-solid fa-envelope"></i>
               </div>
               <div class="auth-form__group">
                 <input
@@ -477,6 +502,7 @@
                   class="auth-form__input"
                   placeholder="Nhập Mật khẩu"
                 />
+                <i class="fa-solid fa-lock"></i>
               </div>
             </div>
 
@@ -516,19 +542,18 @@
     <script>
       $(window).scroll(function () {
         if ($(window).scrollTop() >= 250 && $(window).scrollTop() <= 1100) {
-          $(".info__text-img").show(); 
-        } else { 
-          $(".info__text-img").hide();
-        } 
-      });
-      $(window).scroll(function () { 
-        if ($(window).scrollTop() >= 250 && $(window).scrollTop() <= 1100) {
-          $(".info__text-content").show(); 
+          $(".info__text-img").show();
         } else {
-           $(".info__text-content").hide(); 
-          } 
-        }); 
-
+          $(".info__text-img").hide();
+        }
+      });
+      $(window).scroll(function () {
+        if ($(window).scrollTop() >= 250 && $(window).scrollTop() <= 1100) {
+          $(".info__text-content").show();
+        } else {
+          $(".info__text-content").hide();
+        }
+      });
     </script>
     <script>
       const productList = document.querySelector(".productLike-list-pane1");
@@ -808,5 +833,16 @@
     <script src="./assets/js/form.js"></script>
     <script src="./assets/js/scroll_btn.js"></script>
     <script src="./assets/js/menu.js"></script>
+
+    <!-- close cart -->
+    <script>
+      var closeButtons = document.querySelectorAll(".navbar__cart-close");
+      for (var i = 0; i < closeButtons.length; i++) {
+        closeButtons[i].addEventListener("click", function () {
+          var cartItem = this.closest(".navbar__cart-li");
+          cartItem.remove();
+        });
+      }
+    </script>
   </body>
 </html>

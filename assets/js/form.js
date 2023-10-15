@@ -1,4 +1,3 @@
-  
 const navUser1 = document.querySelector(".btn-1");
 const modal = document.querySelector(".js-modal");
 const register = document.querySelector(".js-form");
@@ -18,11 +17,7 @@ register.addEventListener("click", function (event) {
   event.stopPropagation();
 });
 
-document
-  .getElementById("login-link")
-  .addEventListener("click", function () {
-    document
-      .querySelector(".login-pane.active")
-      .classList.remove("active");
-    document.getElementById("register-pane").classList.add("active");
-  });
+document.getElementById("login-link").addEventListener("click", function () {
+  document.querySelector(".login-pane.active").classList.remove("active");
+  document.getElementById("register-pane").classList.add("active");
+});

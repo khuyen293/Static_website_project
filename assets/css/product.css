@@ -38,8 +38,8 @@
   transform: translate(-50%, -50%);
   font-weight: 600;
   color: var(--black-color);
-  font-family: 'Quicksand', sans-serif;
-} */
+  font-family: "Quicksand", sans-serif;
+}
 
 .products__main-title:hover {
   background-color: var(--orange-color);

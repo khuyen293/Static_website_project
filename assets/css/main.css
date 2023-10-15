@@ -1,4 +1,4 @@
-.tb-mb-menu{
+.tb-mb-menu {
   display: none;
 }
 
@@ -26,10 +26,14 @@
   cursor: pointer;
 }
 
- .mobile-menu-btn{
+.mobile-menu-btn {
   display: none;
   position: relative;
   color: var(--while-color);
+}
+
+.tb-mb-menu {
+  display: none;
 }
 
 .navbar__item {
@@ -38,7 +42,7 @@
   transition: 0.5s ease;
 }
 
-.navbar__color{
+.navbar__color {
   color: var(--orange-color) !important;
 }
 
@@ -72,7 +76,6 @@
   transform-origin: calc(100% - 50px) top;
   animation: h_navbar ease-in 0.2s;
   display: none;
-
 }
 
 .header__navbar-nameproduct li {
@@ -207,6 +210,7 @@
 
 .navbar__cart-item {
   display: flex;
+  padding-left: 16px;
 }
 
 .navbar__cart-img {
@@ -246,6 +250,10 @@
   font-weight: 600;
 }
 
+.navbar__cart-close:hover {
+  color: var(--orange-color);
+}
+
 .navbar__cart-price-sum {
   display: flex;
   color: var(--black-color);
@@ -276,11 +284,11 @@
   overflow: auto;
 }
 
-.slideshow__container{
+.slideshow__container {
   width: 100%;
 }
 
-.slideshow__container img{
+.slideshow__container img {
   width: 100%;
   height: 570px;
 }
@@ -319,11 +327,10 @@
   }
 }
 
-.tb-info_section{
+.tb-info_section {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .info__container-content {
@@ -336,7 +343,7 @@
   justify-content: space-between;
 }
 
-.info__section-img{
+.info__section-img {
   width: 60%;
   height: 110px;
   margin-right: 8px;
@@ -345,10 +352,9 @@
 .info__section-title {
   font-weight: 600;
   display: flex;
-
 }
 
-.info__section-ct{
+.info__section-ct {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -577,6 +583,21 @@
   color: var(--text-color);
 }
 
+.auth-form__group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e5e5e6;
+  padding: 10px;
+  border-radius: 2px;
+  margin: 16px 0;
+  color: #999696;
+}
+
+.auth-form__group input {
+  border: none;
+}
+
 .auth-form__switch-btn {
   font-size: 18px;
   color: var(--primary-color);
@@ -586,13 +607,8 @@
 
 .auth-form__input {
   width: 100%;
-  height: 37px;
-  margin-top: 16px;
-  padding: 0 12px;
   font-size: 14px;
-  border-radius: 2px;
-  border: 1px solid #e5e5e6;
-  outline: none;
+  /* outline: none; */
 }
 
 /* lớp giả */
@@ -665,6 +681,7 @@
 .auth-form__help {
   display: flex;
   justify-content: flex-end;
+  top: -14px;
 }
 
 .auth-form__help-link {

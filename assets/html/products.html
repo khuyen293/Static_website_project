@@ -26,148 +26,146 @@
   </head>
   <body>
     <div class="app">
-      <div class="app">
-        <div class="tb-mb-menu" id="menu">
-          <img class="tb-mb-menu-img" src="../img/logo.png">
-          <div class="tb-mb-content">
-            <ul class="tb-mb-list">
-              <li class="tb-mb-item"><a href="../../index.html">TRANG CHỦ</a></li>
-              <li class="tb-mb-item"><a href="./infos.html">GIỚI THIỆU</a></li>
-              <li class="tb-mb-item"><a href="./sightseeings.html">THAM QUAN</a></li>
-              <li class="tb-mb-item"><a href="./products.html" class="navbar__color">SẢN PHẨM</a></li>
-              <li class="tb-mb-item"><a href="./shops.html">CỬA HÀNG</a></li>
-              <li class="tb-mb-item"><a href="./blogs.html">TIN TỨC</a></li>
-              <li class="tb-mb-item"><a href="./contacts.html">LIÊN HỆ</a></li>
-            </ul>
-          </div>
-  
+      <div class="tb-mb-menu" id="menu" style="display: none">
+        <img class="tb-mb-menu-img" src="../img/logo.png" />
+        <div class="tb-mb-content">
+          <ul class="tb-mb-list">
+            <li class="tb-mb-item"><a href="../../index.html">TRANG CHỦ</a></li>
+            <li class="tb-mb-item"><a href="./infos.html">GIỚI THIỆU</a></li>
+            <li class="tb-mb-item">
+              <a href="./sightseeings.html">THAM QUAN</a>
+            </li>
+            <li class="tb-mb-item">
+              <a href="./products.html" class="navbar__color">SẢN PHẨM</a>
+            </li>
+            <li class="tb-mb-item"><a href="./shops.html">CỬA HÀNG</a></li>
+            <li class="tb-mb-item"><a href="./blogs.html">TIN TỨC</a></li>
+            <li class="tb-mb-item"><a href="./contacts.html">LIÊN HỆ</a></li>
+          </ul>
         </div>
-        <header class="header">
-          <div class="grid header__navbar ">
-                <div class="mobile-menu-btn" onclick="toggleMenu()">
-                  <i class="fa-solid fa-bars"></i>
-                </div>
-                <ul class="header__navbar-list tb-header">
-                <li class="navbar__item"><a href="../../index.html">Trang chủ</a></li>
-                <li class="navbar__item">
-                  <a href="../html/infos.html">Giới thiệu</a>
-                </li>
-                <li class="navbar__item">
-                  <a href="../html/sightseeings.html">Tham quan</a>
-                </li>
-                <li class="navbar__item header__navbar-product">
-                  <a href="../html/products.html" class="navbar__color"
-                    >Sản phẩm <i class="fa fa-caret-down"></i
-                  ></a>
-                  <ul class="header__navbar-nameproduct header__navbar-before">
-                    <li><a href="">Trái cây</a></li>
-                    <li><a href="">Rau ăn lá</a></li>
-                    <li><a href="">Rau ăn củ</a></li>
-                    <li><a href="">Rau ăn quả</a></li>
-                    <li><a href="">Rau gia vị</a></li>
-                    <li style="border-bottom: none">
-                      <a href="">Thịt tươi sống</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="navbar__item">
-                  <a href="../html/shops.html">Cửa hàng</a>
-                </li>
-                <li class="navbar__item">
-                  <a href="../html/blogs.html">Tin tức</a>
-                </li>
-                <li class="navbar__item">
-                  <a href="../html/contacts.html">Liên hệ</a>
-                </li>
-              </ul>          
-              <ul class="header__navbar-list">
-                <li class="header__navbar-item header__navbar-user">
-                  <span class="header__navbar-user-icon">
-                    <i class="fas fa-user-plus"></i>
-                  </span>
-                  <ul class="header__navbar-user-menu header__navbar-before">
-                    <li class="header__navbar-user-item btn-1">
-                      <button class="">Đăng ký</button>
-                    </li>
-                    <li class="header__navbar-user-item btn-2">
-                      <button>Đăng nhập</button>
-                    </li>
-                  </ul>
-                </li>
-                <li class="header__navbar-item header__navbar-cart">
-                  <span class="header__navbar-cart-icon">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                  </span>
-                  <div class="navbar__cart-list header__navbar-before">
-                    <ul class="navbar__cart-list-item">
-                      <li class="navbar__cart-li">
-                        <a href="" class="navbar__cart-item">
-                          <img
-                            class="navbar__cart-img"
-                            src="../img/cachuabi.png"
-                          />
-                          <div class="navbar__cart-item-info">
-                            <p class="navbar__cart-item-name">Cà chua bi</p>
-                            <div class="navbar__cart-item-price-wrap">
-                              <span class="navbar__cart-item-price">10.000đ</span>
-                              <span class="navbar__cart-item-multiply">x</span>
-                              <span class="navbar__cart-item-quantity">1</span>
-                            </div>
-                          </div>
-                        </a>
-                        <div class="navbar__cart-close">
-                          <i class="fa-solid fa-xmark"></i>
-                        </div>
-                      </li>
-                      <li class="navbar__cart-li">
-                        <a href="" class="navbar__cart-item">
-                          <img
-                            class="navbar__cart-img"
-                            src="../img/bongthienly.webp"
-                          />
-                          <div class="navbar__cart-item-info">
-                            <p class="navbar__cart-item-name">Bông thiên lý</p>
-                            <div class="navbar__cart-item-price-wrap">
-                              <span class="navbar__cart-item-price">27.000đ</span>
-                              <span class="navbar__cart-item-multiply">x</span>
-                              <span class="navbar__cart-item-quantity">3</span>
-                            </div>
-                          </div>
-                        </a>
-                        <div class="navbar__cart-close">
-                          <i class="fa-solid fa-xmark"></i>
-                        </div>
-                      </li>
-                      <li class="navbar__cart-li">
-                        <a href="" class="navbar__cart-item">
-                          <img
-                            class="navbar__cart-img"
-                            src="../img/noibat4.webp"
-                          />
-                          <div class="navbar__cart-item-info">
-                            <p class="navbar__cart-item-name">Cà rốt</p>
-                            <div class="navbar__cart-item-price-wrap">
-                              <span class="navbar__cart-item-price">12.000đ</span>
-                              <span class="navbar__cart-item-multiply">x</span>
-                              <span class="navbar__cart-item-quantity">2</span>
-                            </div>
-                          </div>
-                        </a>
-                        <div class="navbar__cart-close">
-                          <i class="fa-solid fa-xmark"></i>
-                        </div>
-                      </li>
-                    </ul>
-                    <div class="navbar__cart-price-sum">
-                      <p>Tổng cộng:</p>
-                      <p class="navbar__cart-sum">49.000₫</p>
-                    </div>
-                    <a href="" class="navbar__cart-pay">Tiến hành thanh toán</a>
-                  </div>
+      </div>
+      <header class="header">
+        <div class="grid header__navbar">
+          <div class="mobile-menu-btn" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <ul class="header__navbar-list tb-header">
+            <li class="navbar__item">
+              <a href="../../index.html">Trang chủ</a>
+            </li>
+            <li class="navbar__item">
+              <a href="../html/infos.html">Giới thiệu</a>
+            </li>
+            <li class="navbar__item">
+              <a href="../html/sightseeings.html">Tham quan</a>
+            </li>
+            <li class="navbar__item header__navbar-product">
+              <a href="../html/products.html" class="navbar__color"
+                >Sản phẩm <i class="fa fa-caret-down"></i
+              ></a>
+              <ul class="header__navbar-nameproduct header__navbar-before">
+                <li><a href="">Trái cây</a></li>
+                <li><a href="">Rau ăn lá</a></li>
+                <li><a href="">Rau ăn củ</a></li>
+                <li><a href="">Rau ăn quả</a></li>
+                <li><a href="">Rau gia vị</a></li>
+                <li style="border-bottom: none">
+                  <a href="">Thịt tươi sống</a>
                 </li>
               </ul>
-          </div>
-        </header>
+            </li>
+            <li class="navbar__item">
+              <a href="../html/shops.html">Cửa hàng</a>
+            </li>
+            <li class="navbar__item">
+              <a href="../html/blogs.html">Tin tức</a>
+            </li>
+            <li class="navbar__item">
+              <a href="../html/contacts.html">Liên hệ</a>
+            </li>
+          </ul>
+          <ul class="header__navbar-list">
+            <li class="header__navbar-item header__navbar-user">
+              <span class="header__navbar-user-icon">
+                <i class="fas fa-user-plus"></i>
+              </span>
+              <ul class="header__navbar-user-menu header__navbar-before">
+                <li class="header__navbar-user-item btn-1">
+                  <button class="">Đăng ký</button>
+                </li>
+                <li class="header__navbar-user-item btn-2">
+                  <button>Đăng nhập</button>
+                </li>
+              </ul>
+            </li>
+            <li class="header__navbar-item header__navbar-cart">
+              <span class="header__navbar-cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+              <div class="navbar__cart-list header__navbar-before">
+                <ul class="navbar__cart-list-item">
+                  <li class="navbar__cart-li">
+                    <a href="" class="navbar__cart-item">
+                      <img class="navbar__cart-img" src="../img/cachuabi.png" />
+                      <div class="navbar__cart-item-info">
+                        <p class="navbar__cart-item-name">Cà chua bi</p>
+                        <div class="navbar__cart-item-price-wrap">
+                          <span class="navbar__cart-item-price">10.000đ</span>
+                          <span class="navbar__cart-item-multiply">x</span>
+                          <span class="navbar__cart-item-quantity">1</span>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="navbar__cart-close">
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </li>
+                  <li class="navbar__cart-li">
+                    <a href="" class="navbar__cart-item">
+                      <img
+                        class="navbar__cart-img"
+                        src="../img/bongthienly.webp"
+                      />
+                      <div class="navbar__cart-item-info">
+                        <p class="navbar__cart-item-name">Bông thiên lý</p>
+                        <div class="navbar__cart-item-price-wrap">
+                          <span class="navbar__cart-item-price">27.000đ</span>
+                          <span class="navbar__cart-item-multiply">x</span>
+                          <span class="navbar__cart-item-quantity">3</span>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="navbar__cart-close">
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </li>
+                  <li class="navbar__cart-li">
+                    <a href="" class="navbar__cart-item">
+                      <img class="navbar__cart-img" src="../img/noibat4.webp" />
+                      <div class="navbar__cart-item-info">
+                        <p class="navbar__cart-item-name">Cà rốt</p>
+                        <div class="navbar__cart-item-price-wrap">
+                          <span class="navbar__cart-item-price">12.000đ</span>
+                          <span class="navbar__cart-item-multiply">x</span>
+                          <span class="navbar__cart-item-quantity">2</span>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="navbar__cart-close">
+                      <i class="fa-solid fa-xmark"></i>
+                    </div>
+                  </li>
+                </ul>
+                <div class="navbar__cart-price-sum">
+                  <p>Tổng cộng:</p>
+                  <p class="navbar__cart-sum">49.000₫</p>
+                </div>
+                <a href="" class="navbar__cart-pay">Tiến hành thanh toán</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </header>
       <div class="app__container">
         <div class="grid">
           <nav class="background">
@@ -377,6 +375,7 @@
                   class="auth-form__input"
                   placeholder="Nhập Email"
                 />
+                <i class="fa-solid fa-envelope"></i>
               </div>
               <div class="auth-form__group">
                 <input
@@ -384,6 +383,7 @@
                   class="auth-form__input"
                   placeholder="Nhập Mật khẩu"
                 />
+                <i class="fa-solid fa-lock"></i>
               </div>
               <div class="auth-form__group">
                 <input
@@ -391,6 +391,7 @@
                   class="auth-form__input"
                   placeholder="Nhập lại mật khẩu"
                 />
+                <i class="fa-solid fa-lock"></i>
               </div>
             </div>
 
@@ -429,6 +430,7 @@
                   class="auth-form__input"
                   placeholder="Nhập Email"
                 />
+                <i class="fa-solid fa-envelope"></i>
               </div>
               <div class="auth-form__group">
                 <input
@@ -436,6 +438,7 @@
                   class="auth-form__input"
                   placeholder="Nhập Mật khẩu"
                 />
+                <i class="fa-solid fa-lock"></i>
               </div>
             </div>
 
@@ -484,12 +487,12 @@
           {
             img: "../img/ot.jpg",
             name: "Ớt",
-            price: "12,000₫",
+            price: "5,000₫",
           },
           {
             img: "../img/noibat2.png",
             name: "Cải bó xôi",
-            price: "12,000₫",
+            price: "11,000₫",
           },
           {
             img: "../img/noibat3.jpg",
@@ -504,7 +507,7 @@
           {
             img: "../img/noibat5.jpg",
             name: "Trái dứa",
-            price: "12,000₫",
+            price: "11,000₫",
           },
         ],
 
@@ -512,52 +515,52 @@
           {
             img: "../img/bapcai.webp",
             name: "Bắp cải",
-            price: "12,000₫",
+            price: "19,000₫",
           },
           {
             img: "../img/bongbi.jpg",
             name: "Bông bí",
-            price: "12,000₫",
+            price: "27,000₫",
           },
           {
             img: "../img/cai-xanh-organic-300x300.jpg",
             name: "Cải xanh",
-            price: "12,000₫",
+            price: "17,000₫",
           },
           {
             img: "../img/caingong.jpg",
             name: "Cải ngồng",
-            price: "12,000₫",
+            price: "17,000₫",
           },
           {
             img: "../img/xalach.jpg",
             name: "Xà lách",
-            price: "12,000₫",
+            price: "25,000₫",
           },
           {
             img: "../img/chumngay.jpg",
             name: "Chùm ngây ",
-            price: "12,000₫",
+            price: "10,000₫",
           },
           {
             img: "../img/bongthienly.webp",
             name: "Bông thiên lý",
-            price: "12,000₫",
+            price: "27,000₫",
           },
           {
             img: "../img/raulang.webp",
             name: "Rau lang",
-            price: "12,000₫",
+            price: "10,000₫",
           },
           {
             img: "../img/rauma.jpg",
             name: "Rau má",
-            price: "12,000₫",
+            price: "30,000₫",
           },
           {
             img: "../img/rauden.jpg",
             name: "Rau dền",
-            price: "12,000₫",
+            price: "15,000₫",
           },
         ],
 
@@ -565,17 +568,17 @@
           {
             img: "../img/bidao.jpg",
             name: "Bí đao",
-            price: "12,000₫",
+            price: "20,000₫",
           },
           {
             img: "../img/dudu.jpg",
             name: "Đu đủ",
-            price: "12,000₫",
+            price: "25,000₫",
           },
           {
             img: "../img/bidodai.jpg",
             name: "Bí đỏ dài",
-            price: "12,000₫",
+            price: "15,000₫",
           },
           {
             img: "../img/cachuabi.png",
@@ -585,7 +588,7 @@
           {
             img: "../img/dualeo.webp",
             name: "Dưa leo",
-            price: "12,000₫",
+            price: "15,000₫",
           },
         ],
 
@@ -644,6 +647,16 @@
         },
       };
       producting.render();
+    </script>
+    <!-- close cart -->
+    <script>
+      var closeButtons = document.querySelectorAll(".navbar__cart-close");
+      for (var i = 0; i < closeButtons.length; i++) {
+        closeButtons[i].addEventListener("click", function () {
+          var cartItem = this.closest(".navbar__cart-li");
+          cartItem.remove();
+        });
+      }
     </script>
   </body>
 </html>
