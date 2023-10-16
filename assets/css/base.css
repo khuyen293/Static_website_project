@@ -148,7 +148,7 @@ html {
 
 .navbar__item a {
   text-decoration: none;
-  color: #fff;
+  color: var(--while-color);
   font-weight: 600;
   font-size: 17px;
 }
@@ -159,11 +159,16 @@ html {
 
 .header__navbar-item {
   margin-left: 30px;
-  color: #fff;
+  color: var(--while-color);
 }
 
-.header__navbar-item:hover{
+.header__navbar-user-icon:hover,
+.header__navbar-cart-icon:hover{
   color: var(--orange-color);
+}
+
+.header__navbar-cart-icon{
+  color: var(--while-color);
 }
 
 .header__navbar-nameproduct {
@@ -376,7 +381,7 @@ html {
 .content__panel {
   min-width: 50px;
   font-weight: 600;
-  color: #fff;
+  color: var(--while-color);
   font-size: 19px;
 }
 
@@ -405,7 +410,7 @@ html {
   text-align: center;
   transform: translate(-50%, -50%);
   padding-bottom: 6px;
-  color: #fff;
+  color: var(--while-color);
 }
 
 /* slide */
@@ -591,7 +596,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: var(--while-color);
 }
 
 .footer__license a {
