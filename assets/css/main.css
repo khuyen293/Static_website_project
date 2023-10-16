@@ -62,6 +62,10 @@
   color: #fff;
 }
 
+.header__navbar-item:hover{
+  color: var(--orange-color);
+}
+
 .header__navbar-nameproduct {
   z-index: 1;
   position: absolute;
@@ -92,12 +96,6 @@
   margin: -5px 0;
 }
 
-.header__navbar-before::before {
-  content: "";
-  position: absolute;
-  display: block;
-}
-
 @keyframes h_navbar {
   from {
     opacity: 0.3;
@@ -116,50 +114,10 @@
   right: 10px;
 }
 
-.header__navbar-user-menu {
-  position: absolute;
-  z-index: 3;
-  padding: 10px 10px;
-  right: -20px;
-  width: 130px;
-  border-radius: 5px;
-  list-style: none;
-  background-color: var(--while-color);
-  box-shadow: 0 1px 2px #e0e0e0;
-  transform-origin: calc(100% - 50px) top;
-  animation: h_navbar ease-in 0.3s;
-  display: none;
-  cursor: pointer;
-}
-
-.header__navbar-user-menu::before {
-  width: 70px;
-  height: 20px;
-  right: 10px;
-  top: -15px;
-}
-
-.header__navbar-user:hover .header__navbar-user-menu,
 .header__navbar-product:hover .header__navbar-nameproduct,
 .header__navbar-cart:hover .navbar__cart-list {
   display: block;
 }
-
-.header__navbar-user-item button {
-  display: flex;
-  justify-content: center;
-  color: var(--black-color);
-  border: none;
-  padding: 10px;
-  background-color: var(--while-color);
-}
-
-.header__navbar-user-item button:hover {
-  border-radius: 50px;
-  background-color: var(--primary-color-2);
-  cursor: pointer !important;
-}
-
 .header__navbar-cart {
   position: relative;
 }
