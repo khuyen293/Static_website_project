@@ -19,5 +19,10 @@ register.addEventListener("click", function (event) {
 
 document.getElementById("login-link").addEventListener("click", function () {
   document.querySelector(".login-pane.active").classList.remove("active");
+  document.getElementById("login-pane").classList.add("active");
+});
+
+document.getElementById("register-link").addEventListener("click", function () {
+  document.querySelector(".login-pane.active").classList.remove("active");
   document.getElementById("register-pane").classList.add("active");
 });
