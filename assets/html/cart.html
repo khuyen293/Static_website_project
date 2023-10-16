@@ -464,6 +464,23 @@
     <script src="../js/form.js"></script>
     <script src="../js/scroll_btn.js"></script>
     <script src="../js/menu.js"></script>
+    <script>
+      var closeButtons = document.querySelectorAll(".navbar__cart-close");
+      for (var i = 0; i < closeButtons.length; i++) {
+        closeButtons[i].addEventListener("click", function () {
+          var cartItem = this.closest(".navbar__cart-li");
+          cartItem.remove();
+        });
+      }
+
+      var closeProduct = document.querySelectorAll(".cart-item-trash");
+      for (var i = 0; i < closeButtons.length; i++) {
+        closeProduct[i].addEventListener("click", function () {
+          var cartItem = this.closest(".cart-content-list");
+          cartItem.remove();
+        });
+      }
+    </script>
     
 </body>
 </html>

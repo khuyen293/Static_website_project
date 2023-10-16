@@ -46,6 +46,10 @@
     color: #999494;
 }
 
+.cart-item-trash:hover{
+    cursor: pointer;
+}
+
 .cart__container-addPrice{
     float: right;
     font-weight: 600;
