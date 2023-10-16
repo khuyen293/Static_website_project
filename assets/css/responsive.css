@@ -213,7 +213,12 @@
   /* cart */
   .cart-content-list{
     padding-left: 0 !important;
-}
+  }
+
+  .navbar__cart-list {
+    display: none !important;
+  }
+
 }
 @media (min-width: 451px) and (max-width: 820px) {
   .tb-mb-menu {
