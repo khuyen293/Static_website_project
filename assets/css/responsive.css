@@ -159,8 +159,8 @@
     display: block;
   }
 
-  .grid_column-2 {
-    width: 50%;
+  .trip__center, .trip__left {
+    width: 100%;
   }
 
   .products__main-list {
@@ -458,10 +458,6 @@
   }
 
   .footer__contact {
-    width: 100%;
-  }
-
-  .grid_column-2 {
     width: 100%;
   }
 
