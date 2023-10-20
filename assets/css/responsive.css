@@ -65,7 +65,7 @@
   }
 
   .info__section-img {
-    height: 120px;
+    /* height: 120px; */
   }
 
   .margin_70 {
@@ -409,7 +409,7 @@
   }
 
   .info__section-img {
-    height: 70px;
+    /* height: 70px; */
   }
 
   .tb-info_section {
@@ -635,5 +635,9 @@
     display: flex;
     justify-content: center;
     /* text-align: center; */
+  }
+
+  .grid_column-2{
+    width: 100%;
   }
 }
