@@ -540,6 +540,7 @@ html {
 
 .form__group {
   padding-top: 20px;
+  width: 100%;
 }
 
 .form-control {
@@ -551,9 +552,6 @@ html {
   font-size: 14px;
 }
 
-.form-control option{
-  width: 100%;
-}
 
 .grid_column-49 {
   width: 49%;
