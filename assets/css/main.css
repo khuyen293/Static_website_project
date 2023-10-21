@@ -63,9 +63,11 @@
 }
 
 .info__section-img {
-  width: 60%;
-  height: 110px;
-  margin-right: 8px;
+  width: 35%;
+}
+
+.info__section-content{
+  padding-left: 8px;
 }
 
 .info__section-title {
@@ -73,7 +75,7 @@
   display: flex;
 }
 
-.info__section-ct {
+.info__section-ct, .news_list-content-title {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -222,6 +224,15 @@
   font-weight: 600;
   font-size: 18px;
 }
+
+.news_list-content-item{
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+
 /* Login/register */
 @keyframes fadeIn {
   from {

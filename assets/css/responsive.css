@@ -64,10 +64,6 @@
     height: 270px;
   }
 
-  .info__section-img {
-    /* height: 120px; */
-  }
-
   .margin_70 {
     margin: 0 24px !important;
   }
@@ -264,7 +260,6 @@
 
   .info__section-img {
     width: 80%;
-    height: 150px;
   }
 
   .info__section-title {
@@ -406,10 +401,6 @@
 
   .info__section {
     display: block !important;
-  }
-
-  .info__section-img {
-    /* height: 70px; */
   }
 
   .tb-info_section {
