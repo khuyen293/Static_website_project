@@ -9,6 +9,10 @@
   padding-bottom: 80px;
 }
 
+.contacts__googlemap iframe{
+  width: 100%;
+}
+
 .part__box {
   text-align: center;
   background-color: var(--while-color);
